@@ -51,11 +51,15 @@ Managing UI alignment issues (padding, margin, flex)
 ---
 
 🛠 Tech Stack
-Tech	          Used For
+
 React.js	  --->UI Components & Logic
+
 Bootstrap	  --->Layout & Styling
+
 HTML + CSS	--->Base structure & styles
+
 React Icons	--->UI Icons
+
 VS Code	    --->Development Environment
 
 ---
