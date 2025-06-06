@@ -1,0 +1,92 @@
+.NavBase
+{
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+.MyImg
+{
+    object-fit: contain;
+    height: 67px;
+      width: 66px;
+}
+
+.Active
+{
+  color: #e1e146 !important;
+    font-weight: 600;
+  border-bottom:2px solid #ffdd2d !important;
+}
+.Box
+{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 36%;
+    /* max-width: fit-content; */
+    padding: 0.2% 0.4%;
+    background-color: rgb(227, 229, 229);
+    border-radius: 5px;
+    border:1px solid #e1e146;
+}
+.Box .Text
+{
+  color: #e1e146;
+    font-size: 14px;
+    font-weight: 600;
+}
+.Box  .C1
+{
+  color: #bfbf18;
+}
+.MyImgPro
+{
+    object-fit: contain;
+  height: 26px;
+    width: 40px;
+}
+.Box1
+{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 5%; */
+    max-width: fit-content;
+    padding: 0.2% 0.4%;
+    background-color: rgb(227, 229, 229);
+    border-radius: 5px;
+    border:1px solid #e1e146;
+}
+.NElements
+{
+  margin-left: 3%;
+    font-size: 15px;
+    font-weight: 500;
+        width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.BoxElements
+{
+  /* background: linear-gradient(135deg, #fffec2, #e1e146); */
+
+  gap: 0%;
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Se1
+{
+  width: 89%;
+}
+.Se1 {
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 12px;
+  width: 89%;
+  padding: 4px;
+  color: #000; /* or your desired text color */
+}

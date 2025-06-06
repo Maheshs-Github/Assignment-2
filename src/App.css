@@ -1,0 +1,15 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.WholeDiv
+{
+  padding-top: 70px;
+  display: flex;
+}
+.ContentDiv
+{
+  flex: 1;
+  margin-left: 21px;
+    margin-top: 8px;
+}

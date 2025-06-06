@@ -1,0 +1,15 @@
+.SBase
+{
+  right: 0;
+        position: sticky;
+    top:50px;
+}
+.Icons ul li
+{
+  list-style: none;
+  padding-top: 10px;
+  padding-right: 30px;
+  font-size: 18px;
+  color: rgb(121, 120, 120);
+  padding-bottom: 10px;
+}

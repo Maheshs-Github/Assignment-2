@@ -1,0 +1,39 @@
+     {/* <nav>
+        <span>
+          <img src="/logo.png" alt="" />
+        </span>
+        <div classNameName="NavOpns">
+          <ul>
+            <li classNameName="nav-item">
+              <a classNameName="nav-link" href="#">
+                Home
+              </a>
+            </li>
+            <li classNameName="nav-item">
+              <a classNameName="nav-link" href="#">
+                Stock
+              </a>
+            </li>
+            <li classNameName="nav-item">
+              <a classNameName="nav-link" href="#">
+                Report
+              </a>
+            </li>
+            <li classNameName="nav-item">
+              <a classNameName="nav-link" href="#">
+                Sell
+              </a>
+            </li>
+            <li classNameName="nav-item">
+              <a classNameName="nav-link" href="#">
+                Scheme
+              </a>
+            </li>
+            <li classNameName="nav-item">
+              <a classNameName="nav-link" href="#">
+                Order
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav> */}

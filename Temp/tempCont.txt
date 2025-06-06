@@ -1,0 +1,72 @@
+import React from "react";
+import NavBar from "./components/NavBar/NavBar";
+import SideBarLeft from "./components/SideBarLeft/SideBarLeft";
+import SideBarRight from "./components/SideBarRight/SideBarRight";
+
+const App = () => {
+  return (
+    <>
+      <NavBar />
+      <div className="main-wrapper">
+        <SideBarLeft />
+        <div className="content-area">
+          <h2>Main Content Goes Here</h2>
+          {/* You can place your routed components or dashboard cards here */}
+        </div>
+        <SideBarRight />
+      </div>
+    </>
+  );
+};
+
+export default App;
+
+
+
+
+/* NavBar */
+.NavBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  z-index: 1000;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Main Wrapper */
+.main-wrapper {
+  display: block;
+  padding-top: 60px;
+}
+
+/* Left Sidebar */
+.SideBarLeft {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  width: 80px;
+  height: calc(100vh - 60px);
+  background-color: #f8f9fa;
+  border-right: 1px solid #ddd;
+}
+
+/* Right Sidebar */
+.SideBarRight {
+  position: fixed;
+  top: 60px;
+  right: 0;
+  width: 80px;
+  height: calc(100vh - 60px);
+  background-color: #f8f9fa;
+  border-left: 1px solid #ddd;
+}
+
+/* Content Area */
+.content-area {
+  margin-left: 80px;  /* same as Left Sidebar */
+  margin-right: 80px; /* same as Right Sidebar */
+  padding: 1rem;
+}

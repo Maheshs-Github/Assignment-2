@@ -1,0 +1,27 @@
+.C3
+{
+  border: 1px solid rgb(240, 238, 238);
+  padding: 6px;
+  
+}
+.MyB1
+{
+  display: flex;
+    width: 100%;
+    width: 280px;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    background-color: rgb(244, 237, 233);
+    /* height: 7vh; */
+}
+.MyB2
+{
+    
+    box-shadow:rgba(122, 128, 56, 1.2) 1px 2px 3px;
+}
+.B4
+{
+    width: 289px !important;
+
+}
