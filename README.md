@@ -69,17 +69,27 @@ VS Code	    --->Development Environment
 assignment-2/
 ├── public/
 │   └── nav-profile.svg
+
 ├── src/
+
 │   ├── components/
+
 │   │   ├── NavBar/
+
 │   │   ├── SideBar/
+
 │   │   ├── RSideBar/
+
 │   │   ├── Content1/
+
 │   │   └── Content23P/
+
 │   ├── App.jsx
+
 │   └── index.js
 ├── package.json
 ├── README.md
+
 └── Assignment_Output.png/        <-- Output screenshot
 
 ---
