@@ -1,12 +1,87 @@
-# React + Vite
+UI Layout Task – Assignment Project
+📄 Project Overview
+This is the assignment task given by Online Munim, focused on building a structured UI layout using React, HTML, CSS, and Bootstrap.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The goal was to create a dashboard-style layout consisting of:
 
-Currently, two official plugins are available:
+A fixed Top NavBar
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A Left Sidebar
 
-## Expanding the ESLint configuration
+A Right Sidebar
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+A central Content area with basic responsive layout
+
+This project helped me improve my practical knowledge of component structuring, layout techniques, and styling .
+
+✨ Features
+🧱 Modular React Component Structure
+
+NavBar
+
+SideBar
+
+RSideBar
+
+Content1, Content23P, etc.
+
+🎨 Responsive Layout using Bootstrap Grid & Flexbox
+
+🎯 Font and icon integration with React Icons
+
+💻 Clean component-based UI architecture
+
+🧠 What I Learned
+Structuring reusable components in React
+
+Using Bootstrap for layout and spacing
+
+Handling sidebar positioning with CSS + Flex
+
+Working with Font and icon styling
+
+Managing UI alignment issues (padding, margin, flex)
+
+🛠 Tech Stack
+Tech	          Used For
+React.js	  --->UI Components & Logic
+Bootstrap	  --->Layout & Styling
+HTML + CSS	--->Base structure & styles
+React Icons	--->UI Icons
+VS Code	    --->Development Environment
+
+📁 Project Structure
+
+assignment-2/
+├── public/
+│   └── nav-profile.svg
+├── src/
+│   ├── components/
+│   │   ├── NavBar/
+│   │   ├── SideBar/
+│   │   ├── RSideBar/
+│   │   ├── Content1/
+│   │   └── Content23P/
+│   ├── App.jsx
+│   └── index.js
+├── package.json
+├── README.md
+└── Assignment_Output.png/        <-- Output screenshot
+
+
+
+📸 Output Screenshots
+The output screenshot is saved as the Assignment_Output.png file in this repo.
+
+💡 How to Run
+
+git clone https://github.com/Maheshs-Github/Assignment-2
+cd assignment-2
+npm i
+npm start
+
+
+🙏 Acknowledgment
+This task was given as part of a  assignment by Online Munim.
+
+I sincerely thank the team & HR for this opportunity, which allowed me to apply and improve my skills through a hands-on React-based UI task.
