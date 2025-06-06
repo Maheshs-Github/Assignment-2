@@ -97,17 +97,23 @@ assignment-2/
 📸 Output Screenshots
 The output screenshot is saved as the Assignment_Output.png file in this repo.
 
-💡 How to Run
-
 ---
 
+💡 How to Run
+
 git clone https://github.com/Maheshs-Github/Assignment-2
+
 cd assignment-2
+
 npm i
+
 npm start
+
+----
 
 
 🙏 Acknowledgment
+
 This task was given as part of a  assignment by Online Munim.
 
 I sincerely thank the team & HR for this opportunity, which allowed me to apply and improve my skills through a hands-on React-based UI task.
